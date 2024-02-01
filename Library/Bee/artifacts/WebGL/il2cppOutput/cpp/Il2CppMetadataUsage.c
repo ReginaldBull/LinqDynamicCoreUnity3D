@@ -1320,6 +1320,7 @@ RuntimeClass* IChannelDataStore_t843422F912C1F33572E76AE2B84E311C803AB4A7_il2cpp
 RuntimeClass* IChannelInfo_tA3FF2A7050DC4FA25AA1C1346B297D2A9610CFE4_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883101;
 RuntimeClass* IChannelReceiver_t59B88414341A79A9096A8EAA10B24AA61DF09E37_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883105;
 RuntimeClass* IChannelSender_tA7B454E08A723961A7E5FD87A909421C07E61BCD_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883107;
+RuntimeClass* IChoice_t313E3E2E6D6BAD77E86E87F6ACE506346293E833_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883109;
 RuntimeClass* IClientChannelSinkProvider_tA7413330165B4EF7CAF32AE39F79CC91C536C865_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883111;
 RuntimeClass* ICloneable_t5118E0179AA4A8D8B4D4A85BF3CE9BB363B88E14_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883113;
 RuntimeClass* ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var = (RuntimeClass*)(uintptr_t)536883115;
