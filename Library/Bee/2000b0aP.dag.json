@@ -6287,6 +6287,9 @@
       "File": "/home/georg/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
+      "File": "Assets/csc.rsp"
+    },
+    {
       "File": "Library/Bee/2000b0aP-inputdata.json"
     }
   ],

@@ -23873,7 +23873,7 @@ IL_0120_1:
 				Type_t* L_54 = ___0_attributeType;
 				Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* L_55 = V_10;
 				bool L_56;
-				L_56 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_54, L_55);
+				L_56 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119, L_54, L_55);
 				if (!L_56)
 				{
 					goto IL_014e_1;
@@ -24031,7 +24031,7 @@ IL_0045_1:
 				V_3 = L_13;
 				Type_t* L_14 = V_3;
 				FieldInfo_t* L_15;
-				L_15 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85, L_14, _stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E, ((int32_t)1048));
+				L_15 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_14, _stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E, ((int32_t)1048));
 				V_4 = L_15;
 				FieldInfo_t* L_16 = V_4;
 				bool L_17;
@@ -24062,7 +24062,7 @@ IL_0083_1:
 			{
 				Type_t* L_22 = V_3;
 				Type_t* L_23;
-				L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(29, L_22);
+				L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(30, L_22);
 				TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_24;
 				L_24 = Array_Empty_TisType_t_m1FD9ED0B09CEAFFC537EF0C71689FDB03AEF72AC_inline(Array_Empty_TisType_t_m1FD9ED0B09CEAFFC537EF0C71689FDB03AEF72AC_RuntimeMethod_var);
 				ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_25;

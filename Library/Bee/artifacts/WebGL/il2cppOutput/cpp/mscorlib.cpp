@@ -1682,6 +1682,10 @@ struct NodeType_tA0667DBD8FC8EB3B1202CBEEEC3958E5BC14A76E
 {
 	int32_t ___value__;
 };
+struct Permissions_tD0E234E5F8D29A8310EB87EB60D3EB439AC6635F 
+{
+	int32_t ___value__;
+};
 struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
 {
 	ByReference_1_t9C85BCCAAF8C525B6C06B07E922D8D217BE8D6FC ____pointer;
@@ -3231,6 +3235,12 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_ReadLink(char*, uint8_t*, int3
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_Stat2(char*, FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2*);
 #endif
 #if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
+IL2CPP_EXTERN_C uint32_t DEFAULT_CALL SystemNative_GetEGid();
+#endif
+#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
+IL2CPP_EXTERN_C uint32_t DEFAULT_CALL SystemNative_GetEUid();
+#endif
+#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_LChflagsCanSetHiddenFlag();
 #endif
 #if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
@@ -4059,6 +4069,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_Stat_m335FF7F9EF8D4ADB75EFEF43655
 
 	return returnValue;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Sys_GetEGid_m3CC143731AC972DB0889EE1F4E7D0F8A1C11ED06 (const RuntimeMethod* method) 
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(SystemNative_GetEGid)();
+
+	return returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Sys_GetEUid_mE5EDB029C9CD81EF3AB026AFBA509FDDBA02A9AA (const RuntimeMethod* method) 
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(SystemNative_GetEUid)();
+
+	return returnValue;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_LChflagsCanSetHiddenFlag_mF927D75AA5A0EBF295A07FC40BECF267041D6F6B (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -4269,6 +4295,14 @@ IL2CPP_EXTERN_C  ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 Direct
 	_returnValue = DirectoryEntry_GetName_mF08AE47152428B103C9ADC1C339DD5FA41BAE996(_thisAdjusted, ___0_buffer, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -30735,14 +30769,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_TrimEnd_m25B1EA658EE07ADFED5
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_TrimEnd_mDB4D96F8312F563656D4115A9F280062E05D2EE8 (String_t* __this, Il2CppChar ___0_trimChar, const RuntimeMethod* method) 
-{
-	{
-		String_t* L_0;
-		L_0 = String_TrimHelper_m3DAC04D0C8870DC7CD961F9D9346CF967318E8AF(__this, (Il2CppChar*)((uintptr_t)(&___0_trimChar)), 1, 1, NULL);
-		return L_0;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_TrimEnd_mD7CFB0999EEEE20E3A869516EBCE07E8AB5BD529 (String_t* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_trimChars, const RuntimeMethod* method) 
 {
 	Il2CppChar* V_0 = NULL;
@@ -31114,15 +31140,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Contains_m6D77B121FADA7CA5F397C0F
 		int32_t L_1;
 		L_1 = String_IndexOf_m490810CB7ADA9230AC0F8D78E213A8EFED129F55(__this, L_0, 4, NULL);
 		return (bool)((((int32_t)((((int32_t)L_1) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Contains_mC67F1B9E92187E2BB125A560160DA30A5BA703F2 (String_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) 
-{
-	{
-		Il2CppChar L_0 = ___0_value;
-		int32_t L_1;
-		L_1 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(__this, L_0, NULL);
-		return (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966 (String_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) 

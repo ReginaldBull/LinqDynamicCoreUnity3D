@@ -6298,7 +6298,7 @@ IL_004b:
 		L_19 = TypeUtils_GetNonNullableType_mEFA6EEA56679D5341A252A5D07B7356063A78F85(L_18, NULL);
 		Type_t* L_20 = V_1;
 		bool L_21;
-		L_21 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_19, L_20);
+		L_21 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_19, L_20);
 		if (!L_21)
 		{
 			goto IL_0074;
@@ -7192,7 +7192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DynamicExpression_t0B6CEF1F9AFFB24B9123A7255F
 		Type_t* L_4;
 		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(20, L_2, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_2, L_4);
 		if (L_5)
 		{
 			goto IL_002e;
@@ -13089,7 +13089,7 @@ IL_006c:
 		Type_t* L_21;
 		L_21 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_20, NULL);
 		String_t* L_22;
-		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_21);
+		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_21);
 		G_B6_0 = L_22;
 		G_B6_1 = G_B5_0;
 	}
@@ -14515,7 +14515,7 @@ IL_001a:
 		Type_t* L_5;
 		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_4);
 		Type_t* L_6;
-		L_6 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_5);
+		L_6 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_5);
 		return L_6;
 	}
 }
@@ -18639,7 +18639,7 @@ IL_001c:
 		Type_t* L_4;
 		L_4 = VirtualFuncInvoker0< Type_t* >::Invoke(5, __this);
 		Type_t* L_5;
-		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_4);
+		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_4);
 		RuntimeObject* L_6 = ___0_expressions;
 		il2cpp_codegen_runtime_class_init_inline(Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_il2cpp_TypeInfo_var);
 		NewArrayExpression_t456788ECCA135056C26BDD0CB8DE88D32D1EFD5E* L_7;
@@ -18652,7 +18652,7 @@ IL_0038:
 		Type_t* L_8;
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(5, __this);
 		Type_t* L_9;
-		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_8);
+		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_8);
 		RuntimeObject* L_10 = ___0_expressions;
 		il2cpp_codegen_runtime_class_init_inline(Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_il2cpp_TypeInfo_var);
 		NewArrayExpression_t456788ECCA135056C26BDD0CB8DE88D32D1EFD5E* L_11;
@@ -18998,7 +18998,7 @@ IL_000b:
 	{
 		Type_t* L_4 = ___0_type;
 		bool L_5;
-		L_5 = VirtualFuncInvoker0< bool >::Invoke(69, L_4);
+		L_5 = VirtualFuncInvoker0< bool >::Invoke(70, L_4);
 		if (L_5)
 		{
 			goto IL_0126;
@@ -27058,7 +27058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CallInstruction_t1F392A956978AB3DAF22A69DD3D3
 		V_2 = (MethodInfo_t*)NULL;
 		Type_t* L_5 = V_0;
 		int32_t L_6;
-		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(46, L_5);
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(47, L_5);
 		V_3 = L_6;
 		int32_t L_7 = V_3;
 		switch (((int32_t)il2cpp_codegen_subtract(L_7, 1)))

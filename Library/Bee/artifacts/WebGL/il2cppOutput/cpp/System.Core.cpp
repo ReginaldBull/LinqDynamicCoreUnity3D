@@ -10730,7 +10730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnumerableQuery_Create_mC607E7
 		ArrayElementTypeCheck (L_3, L_4);
 		(L_3)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_4);
 		Type_t* L_5;
-		L_5 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_1, L_3);
+		L_5 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_1, L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		RuntimeObject* L_8 = ___1_sequence;
@@ -10852,7 +10852,7 @@ IL_0047:
 		Type_t* L_23;
 		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_22);
 		bool L_24;
-		L_24 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_21, L_23);
+		L_24 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_21, L_23);
 		if (!L_24)
 		{
 			goto IL_0076;
@@ -11144,7 +11144,7 @@ IL_0002:
 		Type_t* L_3;
 		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_2);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_1, L_3);
+		L_4 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_1, L_3);
 		if (!L_4)
 		{
 			goto IL_0012;
@@ -11180,7 +11180,7 @@ IL_002a:
 		Type_t* L_12;
 		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_11);
 		bool L_13;
-		L_13 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_10, L_12);
+		L_13 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_10, L_12);
 		if (L_13)
 		{
 			goto IL_00c8;
@@ -11214,7 +11214,7 @@ IL_002a:
 		Type_t* L_21 = ___0_type;
 		Type_t* L_22 = V_1;
 		bool L_23;
-		L_23 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_21, L_22);
+		L_23 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_21, L_22);
 		if (!L_23)
 		{
 			goto IL_00c8;
@@ -11223,7 +11223,7 @@ IL_002a:
 	{
 		Type_t* L_24 = ___0_type;
 		Type_t* L_25;
-		L_25 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_24);
+		L_25 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_24);
 		V_2 = L_25;
 		Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* L_26 = V_0;
 		V_3 = ((NewArrayExpression_t456788ECCA135056C26BDD0CB8DE88D32D1EFD5E*)CastclassClass((RuntimeObject*)L_26, NewArrayExpression_t456788ECCA135056C26BDD0CB8DE88D32D1EFD5E_il2cpp_TypeInfo_var));
@@ -11304,7 +11304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* EnumerableRewriter_GetPublicType_m96A
 	{
 		Type_t* L_0 = ___0_t;
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(39, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(40, L_0);
 		if (!L_1)
 		{
 			goto IL_003a;
@@ -11313,9 +11313,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* EnumerableRewriter_GetPublicType_m96A
 	{
 		Type_t* L_2 = ___0_t;
 		Type_t* L_3;
-		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_2);
+		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_2);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_4;
-		L_4 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(115, L_3);
+		L_4 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(118, L_3);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (IGrouping_2_tCCB7BDF08D3882A857E27C539155433BD09D8DC5_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_6;
@@ -11334,9 +11334,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* EnumerableRewriter_GetPublicType_m96A
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
 		Type_t* L_10 = ___0_t;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_11;
-		L_11 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_10);
+		L_11 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_10);
 		Type_t* L_12;
-		L_12 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_9, L_11);
+		L_12 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_9, L_11);
 		return L_12;
 	}
 
@@ -11359,7 +11359,7 @@ IL_0044:
 	{
 		Type_t* L_16 = ___0_t;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_17;
-		L_17 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(115, L_16);
+		L_17 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(118, L_16);
 		V_0 = L_17;
 		V_1 = 0;
 		goto IL_0078;
@@ -11374,7 +11374,7 @@ IL_004f:
 		V_2 = L_21;
 		Type_t* L_22 = V_2;
 		bool L_23;
-		L_23 = VirtualFuncInvoker0< bool >::Invoke(39, L_22);
+		L_23 = VirtualFuncInvoker0< bool >::Invoke(40, L_22);
 		if (!L_23)
 		{
 			goto IL_0074;
@@ -11383,7 +11383,7 @@ IL_004f:
 	{
 		Type_t* L_24 = V_2;
 		Type_t* L_25;
-		L_25 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_24);
+		L_25 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_24);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (IEnumerable_1_t6D39F4BC58A66D98BCEB112169CFDE48809FC555_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_27;
@@ -11422,7 +11422,7 @@ IL_0078:
 		L_34 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_33, NULL);
 		Type_t* L_35 = ___0_t;
 		bool L_36;
-		L_36 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_34, L_35);
+		L_36 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_34, L_35);
 		if (!L_36)
 		{
 			goto IL_009b;
@@ -11571,7 +11571,7 @@ IL_0047:
 	{
 		Type_t* L_19 = V_1;
 		bool L_20;
-		L_20 = VirtualFuncInvoker0< bool >::Invoke(39, L_19);
+		L_20 = VirtualFuncInvoker0< bool >::Invoke(40, L_19);
 		if (!L_20)
 		{
 			goto IL_0112;
@@ -11580,7 +11580,7 @@ IL_0047:
 	{
 		Type_t* L_21 = V_1;
 		Type_t* L_22;
-		L_22 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_21);
+		L_22 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_21);
 		V_2 = L_22;
 		Type_t* L_23 = V_2;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_24 = { reinterpret_cast<intptr_t> (IOrderedEnumerable_1_t2E141FF608A39DE2EC03F31BFBD0B3199A79D7BF_0_0_0_var) };
@@ -11623,13 +11623,13 @@ IL_0094:
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_35 = L_34;
 		Type_t* L_36 = V_1;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_37;
-		L_37 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_36);
+		L_37 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_36);
 		int32_t L_38 = 0;
 		Type_t* L_39 = (L_37)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38));
 		ArrayElementTypeCheck (L_35, L_39);
 		(L_35)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_39);
 		Type_t* L_40;
-		L_40 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_33, L_35);
+		L_40 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_33, L_35);
 		V_0 = L_40;
 		goto IL_0112;
 	}
@@ -11677,13 +11677,13 @@ IL_00df:
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_53 = L_52;
 		Type_t* L_54 = V_1;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_55;
-		L_55 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_54);
+		L_55 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_54);
 		int32_t L_56 = 0;
 		Type_t* L_57 = (L_55)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
 		ArrayElementTypeCheck (L_53, L_57);
 		(L_53)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_57);
 		Type_t* L_58;
-		L_58 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_51, L_53);
+		L_58 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_51, L_53);
 		V_0 = L_58;
 	}
 
@@ -11701,7 +11701,7 @@ IL_0112:
 	{
 		Type_t* L_61 = V_1;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_62;
-		L_62 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(115, L_61);
+		L_62 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(118, L_61);
 		Func_2_t57B4B3A386CA12ED9AD472818D0E9B5072644DC6* L_63 = (Func_2_t57B4B3A386CA12ED9AD472818D0E9B5072644DC6*)il2cpp_codegen_object_new(Func_2_t57B4B3A386CA12ED9AD472818D0E9B5072644DC6_il2cpp_TypeInfo_var);
 		Func_2__ctor_m41B4363C662A6B3697D2A75F82455D4E72B08736(L_63, NULL, (intptr_t)((void*)IntrospectionExtensions_GetTypeInfo_mF4497C8656153A91554F7DC469CE223AF2784FF5_RuntimeMethod_var), NULL);
 		RuntimeObject* L_64;
@@ -11849,7 +11849,7 @@ IL_01cc:
 		ArrayElementTypeCheck (L_99, L_100);
 		(L_99)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_100);
 		Type_t* L_101;
-		L_101 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_97, L_99);
+		L_101 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_97, L_99);
 		V_0 = L_101;
 		goto IL_0274;
 	}
@@ -11928,7 +11928,7 @@ IL_0248:
 		ArrayElementTypeCheck (L_120, L_121);
 		(L_120)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_121);
 		Type_t* L_122;
-		L_122 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_118, L_120);
+		L_122 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_118, L_120);
 		V_0 = L_122;
 	}
 
@@ -12503,7 +12503,7 @@ IL_0094:
 	{
 		Type_t* L_40 = V_3;
 		Type_t* L_41;
-		L_41 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_40);
+		L_41 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_40);
 		V_3 = L_41;
 	}
 
@@ -12519,7 +12519,7 @@ IL_00a3:
 		Type_t* L_47;
 		L_47 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_46);
 		bool L_48;
-		L_48 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_45, L_47);
+		L_48 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_45, L_47);
 		if (L_48)
 		{
 			goto IL_00f9;
@@ -12548,7 +12548,7 @@ IL_00d4:
 		Type_t* L_55;
 		L_55 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_54);
 		bool L_56;
-		L_56 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_53, L_55);
+		L_56 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_53, L_55);
 		if (L_56)
 		{
 			goto IL_00f9;
@@ -12562,7 +12562,7 @@ IL_00d4:
 		Type_t* L_60;
 		L_60 = EnumerableRewriter_StripExpression_mD6719AF73E3080222684FDF90E090C20556A22E8(L_59, NULL);
 		bool L_61;
-		L_61 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_57, L_60);
+		L_61 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_57, L_60);
 		if (L_61)
 		{
 			goto IL_00f9;
@@ -12632,7 +12632,7 @@ IL_000c:
 	{
 		Type_t* L_4 = ___0_type;
 		Type_t* L_5;
-		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_4);
+		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_4);
 		G_B3_0 = L_5;
 		G_B3_1 = G_B2_0;
 	}
@@ -12661,7 +12661,7 @@ IL_0012:
 	{
 		Type_t* L_12 = V_1;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_13;
-		L_13 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_12);
+		L_13 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_12);
 		int32_t L_14 = 0;
 		Type_t* L_15 = (L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_14));
 		V_0 = L_15;
@@ -12678,7 +12678,7 @@ IL_0036:
 	{
 		Type_t* L_16 = ___0_type;
 		int32_t L_17;
-		L_17 = VirtualFuncInvoker0< int32_t >::Invoke(46, L_16);
+		L_17 = VirtualFuncInvoker0< int32_t >::Invoke(47, L_16);
 		V_2 = L_17;
 		int32_t L_18 = V_2;
 		if ((((int32_t)L_18) == ((int32_t)1)))
@@ -12690,7 +12690,7 @@ IL_0036:
 		Type_t* L_19 = V_0;
 		int32_t L_20 = V_2;
 		Type_t* L_21;
-		L_21 = VirtualFuncInvoker1< Type_t*, int32_t >::Invoke(121, L_19, L_20);
+		L_21 = VirtualFuncInvoker1< Type_t*, int32_t >::Invoke(124, L_19, L_20);
 		return L_21;
 	}
 
@@ -12698,7 +12698,7 @@ IL_004b:
 	{
 		Type_t* L_22 = V_0;
 		Type_t* L_23;
-		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(120, L_22);
+		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(123, L_22);
 		return L_23;
 	}
 
@@ -12735,7 +12735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Expression_t70AA908ECBD33E94249BF235E4EBB0F83
 		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
 		Type_t* L_4 = V_0;
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_3, L_4);
 		if (L_5)
 		{
 			goto IL_0021;
@@ -12779,7 +12779,7 @@ IL_0021:
 		Type_t* L_21 = V_4;
 		Type_t* L_22 = V_5;
 		bool L_23;
-		L_23 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_21, L_22);
+		L_23 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_21, L_22);
 		if (!L_23)
 		{
 			goto IL_006e;
@@ -12801,7 +12801,7 @@ IL_006e:
 		Type_t* L_29 = V_5;
 		Type_t* L_30 = V_4;
 		bool L_31;
-		L_31 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_29, L_30);
+		L_31 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_29, L_30);
 		if (!L_31)
 		{
 			goto IL_0084;
@@ -12859,7 +12859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Expression_t70AA908ECBD33E94249BF235E4EBB0F83
 		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
 		Type_t* L_4 = V_0;
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_3, L_4);
 		if (L_5)
 		{
 			goto IL_0021;
@@ -12964,7 +12964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Expression_t70AA908ECBD33E94249BF235E4EBB0F83
 		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
 		Type_t* L_5 = V_0;
 		bool L_6;
-		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_4, L_5);
 		if (L_6)
 		{
 			goto IL_0026;
@@ -13002,7 +13002,7 @@ IL_0026:
 		L_20 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_19, NULL);
 		Type_t* L_21 = V_0;
 		bool L_22;
-		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_20, L_21);
+		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_20, L_21);
 		if (L_22)
 		{
 			G_B4_0 = __this;
@@ -13107,7 +13107,7 @@ IL_0027:
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
 		Type_t* L_10 = V_1;
 		bool L_11;
-		L_11 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_9, L_10);
+		L_11 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_9, L_10);
 		if (L_11)
 		{
 			goto IL_004a;
@@ -13188,7 +13188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetEquivalentTypeU3Eb__7_0_mC
 	{
 		TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D* L_0 = ___0_i;
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(39, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(40, L_0);
 		if (!L_1)
 		{
 			goto IL_0014;
@@ -13197,7 +13197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetEquivalentTypeU3Eb__7_0_mC
 	{
 		TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D* L_2 = ___0_i;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_3;
-		L_3 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_2);
+		L_3 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_2);
 		return (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))) == ((int32_t)1))? 1 : 0);
 	}
 
@@ -13219,7 +13219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR U3CU3Ef__AnonymousType0_2_tFD9ED45789A3D69356
 		TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D* L_0 = ___0_i;
 		TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D* L_1 = ___0_i;
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_1);
 		U3CU3Ef__AnonymousType0_2_tFD9ED45789A3D69356F18C8FC9AF0B42316B3BF0* L_3 = (U3CU3Ef__AnonymousType0_2_tFD9ED45789A3D69356F18C8FC9AF0B42316B3BF0*)il2cpp_codegen_object_new(U3CU3Ef__AnonymousType0_2_tFD9ED45789A3D69356F18C8FC9AF0B42316B3BF0_il2cpp_TypeInfo_var);
 		U3CU3Ef__AnonymousType0_2__ctor_mAD4AE38429E0D86E17135EFC0AFB2CC26E8D6DDE(L_3, L_0, L_2, U3CU3Ef__AnonymousType0_2__ctor_mAD4AE38429E0D86E17135EFC0AFB2CC26E8D6DDE_RuntimeMethod_var);
 		return L_3;
@@ -13282,7 +13282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* U3CU3Ec_U3CGetEquivalentTypeU3Eb__7_3
 		TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D* L_1;
 		L_1 = U3CU3Ef__AnonymousType0_2_get_Info_m2723B30A79604F49953331EFA1A76021A90F5F5F_inline(L_0, U3CU3Ef__AnonymousType0_2_get_Info_m2723B30A79604F49953331EFA1A76021A90F5F5F_RuntimeMethod_var);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2;
-		L_2 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_1);
+		L_2 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_1);
 		int32_t L_3 = 0;
 		Type_t* L_4 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
 		return L_4;
@@ -13345,7 +13345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* U3CU3Ec_U3CGetEquivalentTypeU3Eb__7_5
 		TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D* L_1;
 		L_1 = U3CU3Ef__AnonymousType0_2_get_Info_m2723B30A79604F49953331EFA1A76021A90F5F5F_inline(L_0, U3CU3Ef__AnonymousType0_2_get_Info_m2723B30A79604F49953331EFA1A76021A90F5F5F_RuntimeMethod_var);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2;
-		L_2 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_1);
+		L_2 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, L_1);
 		int32_t L_3 = 0;
 		Type_t* L_4 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
 		return L_4;
@@ -13690,7 +13690,7 @@ IL_001a:
 IL_0043:
 	{
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_13;
-		L_13 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, G_B6_0);
+		L_13 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, G_B6_0);
 		int32_t L_14 = 0;
 		Type_t* L_15 = (L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_14));
 		RuntimeObject* L_16 = ___0_source;
@@ -14636,7 +14636,7 @@ IL_000a:
 	{
 		Type_t* L_0 = ___1_type;
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(39, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(40, L_0);
 		if (!L_1)
 		{
 			goto IL_0022;
@@ -14645,7 +14645,7 @@ IL_000a:
 	{
 		Type_t* L_2 = ___1_type;
 		Type_t* L_3;
-		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_2);
+		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_2);
 		Type_t* L_4 = ___0_definition;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -14688,7 +14688,7 @@ IL_0038:
 	{
 		Type_t* L_11 = ___1_type;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_12;
-		L_12 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(115, L_11);
+		L_12 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(118, L_11);
 		V_1 = L_12;
 		V_2 = 0;
 		goto IL_006a;
@@ -14740,7 +14740,7 @@ IL_0070:
 	{
 		Type_t* L_26 = ___1_type;
 		Type_t* L_27;
-		L_27 = VirtualFuncInvoker0< Type_t* >::Invoke(113, L_26);
+		L_27 = VirtualFuncInvoker0< Type_t* >::Invoke(116, L_26);
 		___1_type = L_27;
 	}
 
@@ -23712,7 +23712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Expression_ParameterIsAssignable_m2B5AD0
 	{
 		Type_t* L_4 = V_0;
 		Type_t* L_5;
-		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_4);
+		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_4);
 		V_0 = L_5;
 	}
 
@@ -25569,7 +25569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BinaryExpression_t4D7BC929A5BBC587BBC045505C9
 		Type_t* L_18;
 		L_18 = TypeUtils_GetNonNullableType_mEFA6EEA56679D5341A252A5D07B7356063A78F85(L_17, NULL);
 		bool L_19;
-		L_19 = VirtualFuncInvoker0< bool >::Invoke(69, L_18);
+		L_19 = VirtualFuncInvoker0< bool >::Invoke(70, L_18);
 		if (!L_19)
 		{
 			goto IL_0082;
@@ -28770,7 +28770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Expression_GetResultTypeOfShift_mCB13
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_8);
 		Type_t* L_9;
-		L_9 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_5, L_7);
+		L_9 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_5, L_7);
 		return L_9;
 	}
 
@@ -30061,7 +30061,7 @@ IL_0052:
 	{
 		Type_t* L_13 = V_0;
 		int32_t L_14;
-		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(46, L_13);
+		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(47, L_13);
 		if ((((int32_t)L_14) == ((int32_t)1)))
 		{
 			goto IL_0061;
@@ -30079,7 +30079,7 @@ IL_0061:
 		Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785* L_17 = ___1_index;
 		Type_t* L_18 = V_0;
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_18);
 		SimpleBinaryExpression_t1C4042D865E6E751FF4D43B3E1BE9ABB392EEF2C* L_20 = (SimpleBinaryExpression_t1C4042D865E6E751FF4D43B3E1BE9ABB392EEF2C*)il2cpp_codegen_object_new(SimpleBinaryExpression_t1C4042D865E6E751FF4D43B3E1BE9ABB392EEF2C_il2cpp_TypeInfo_var);
 		SimpleBinaryExpression__ctor_mD2620CAE2578088A91C58771FEFDDCEFDCC75230(L_20, 5, L_16, L_17, L_19, NULL);
 		return L_20;
@@ -31376,7 +31376,7 @@ IL_0061:
 		Type_t* L_21 = ___1_type;
 		Type_t* L_22 = V_0;
 		bool L_23;
-		L_23 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_21, L_22);
+		L_23 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_21, L_22);
 		if (!L_23)
 		{
 			goto IL_0072;
@@ -32424,7 +32424,7 @@ IL_0024:
 		L_7 = CollectionExtensions_ToReadOnly_TisExpression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_m4AB00DDE8ACE0A76E7D11D950CC913F00C158856(L_6, CollectionExtensions_ToReadOnly_TisExpression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_m4AB00DDE8ACE0A76E7D11D950CC913F00C158856_RuntimeMethod_var);
 		V_0 = L_7;
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(46, G_B2_0);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(47, G_B2_0);
 		ReadOnlyCollection_1_t76DB6014D5D8866A0D28561F8D56D2303331614E* L_9 = V_0;
 		int32_t L_10;
 		L_10 = ReadOnlyCollection_1_get_Count_mF1C20F5D5D5D299F5602DDD1C112D7CDB86D1A8F(L_9, ReadOnlyCollection_1_get_Count_mF1C20F5D5D5D299F5602DDD1C112D7CDB86D1A8F_RuntimeMethod_var);
@@ -32643,7 +32643,7 @@ IL_0039:
 		V_0 = (ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C*)NULL;
 		PropertyInfo_t* L_14 = ___1_indexer;
 		MethodInfo_t* L_15;
-		L_15 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(22, L_14, (bool)1);
+		L_15 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(21, L_14, (bool)1);
 		V_1 = L_15;
 		MethodInfo_t* L_16 = V_1;
 		bool L_17;
@@ -32695,7 +32695,7 @@ IL_0077:
 	{
 		PropertyInfo_t* L_32 = ___1_indexer;
 		MethodInfo_t* L_33;
-		L_33 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(24, L_32, (bool)1);
+		L_33 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(23, L_32, (bool)1);
 		V_2 = L_33;
 		MethodInfo_t* L_34 = V_2;
 		bool L_35;
@@ -33889,7 +33889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* Expression_GetInvokeMethod_mD76
 		Type_t* L_5;
 		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
 		bool L_6;
-		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(20, L_3, L_5);
+		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_3, L_5);
 		if (L_6)
 		{
 			goto IL_0055;
@@ -33928,7 +33928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* Expression_GetInvokeMethod_mD76
 IL_004d:
 	{
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_17;
-		L_17 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(49, G_B3_0);
+		L_17 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, G_B3_0);
 		int32_t L_18 = 0;
 		Type_t* L_19 = (L_17)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_18));
 		V_0 = L_19;
@@ -34131,13 +34131,13 @@ IL_001b:
 		ArrayElementTypeCheck (L_10, L_11);
 		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_11);
 		Type_t* L_12;
-		L_12 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(123, L_8, L_10);
+		L_12 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126, L_8, L_10);
 		MethodInfo_t* L_13;
 		L_13 = Type_GetMethod_m9E66B5053F150537A74C490C1DA5174A7875189D(L_12, _stringLiteral1635B8BFB6632010CC2AC671AD871F2C6E7A6F67, ((int32_t)24), NULL);
 		V_2 = L_13;
 		Type_t* L_14 = ___0_delegateType;
 		bool L_15;
-		L_15 = VirtualFuncInvoker0< bool >::Invoke(68, L_14);
+		L_15 = VirtualFuncInvoker0< bool >::Invoke(69, L_14);
 		if (!L_15)
 		{
 			goto IL_007d;
@@ -34348,7 +34348,7 @@ IL_005c:
 		Type_t* L_20;
 		L_20 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_19);
 		Type_t* L_21;
-		L_21 = VirtualFuncInvoker0< Type_t* >::Invoke(122, L_20);
+		L_21 = VirtualFuncInvoker0< Type_t* >::Invoke(125, L_20);
 		G_B5_0 = L_21;
 		G_B5_1 = G_B4_0;
 		G_B5_2 = G_B4_1;
@@ -34487,7 +34487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Expression_ValidateLambdaArgs_mEE58AA343
 		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
 		Type_t* L_5 = ___0_delegateType;
 		bool L_6;
-		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_4, L_5);
 		if (!L_6)
 		{
 			goto IL_003b;
@@ -34540,7 +34540,7 @@ IL_0042:
 		V_1 = L_19;
 		Type_t* L_20 = ___0_delegateType;
 		bool L_21;
-		L_21 = VirtualFuncInvoker0< bool >::Invoke(68, L_20);
+		L_21 = VirtualFuncInvoker0< bool >::Invoke(69, L_20);
 		if (L_21)
 		{
 			goto IL_0077;
@@ -34632,7 +34632,7 @@ IL_00a9:
 		Type_t* L_49;
 		L_49 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_48);
 		Type_t* L_50;
-		L_50 = VirtualFuncInvoker0< Type_t* >::Invoke(122, L_49);
+		L_50 = VirtualFuncInvoker0< Type_t* >::Invoke(125, L_49);
 		Type_t* L_51 = V_7;
 		Exception_t* L_52;
 		L_52 = Error_ParameterExpressionNotValidAsDelegate_m2495F90DD87E6EBF00DDEBF713BB8140F73FB9B4(L_50, L_51, NULL);
@@ -34643,7 +34643,7 @@ IL_00f2:
 	{
 		Type_t* L_53 = V_7;
 		Type_t* L_54;
-		L_54 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_53);
+		L_54 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_53);
 		V_7 = L_54;
 	}
 
@@ -34864,7 +34864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberAssignment_t09AA042CD70E61F33808EDFE79B
 		Type_t* L_5;
 		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_4);
 		bool L_6;
-		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_3, L_5);
+		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_3, L_5);
 		if (L_6)
 		{
 			goto IL_0032;
@@ -35106,7 +35106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberExpression_t133C12A9CE765EF02D622D660CE
 		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_2);
 		String_t* L_4 = ___1_fieldName;
 		FieldInfo_t* L_5;
-		L_5 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85, L_3, L_4, ((int32_t)85));
+		L_5 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_3, L_4, ((int32_t)85));
 		FieldInfo_t* L_6 = L_5;
 		if (L_6)
 		{
@@ -35121,7 +35121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberExpression_t133C12A9CE765EF02D622D660CE
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_7);
 		String_t* L_9 = ___1_fieldName;
 		FieldInfo_t* L_10;
-		L_10 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85, L_8, L_9, ((int32_t)101));
+		L_10 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_8, L_9, ((int32_t)101));
 		G_B2_0 = L_10;
 	}
 
@@ -35247,7 +35247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberExpression_t133C12A9CE765EF02D622D660CE
 		ContractUtils_RequiresNotNull_mD3D07BD7AA85863B8388667F7CD3D14F6886E41D(L_0, _stringLiteralAF09A6BC0279473D57B36A82CF658E854D58181E, NULL);
 		PropertyInfo_t* L_1 = ___1_property;
 		MethodInfo_t* L_2;
-		L_2 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(22, L_1, (bool)1);
+		L_2 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(21, L_1, (bool)1);
 		V_0 = L_2;
 		MethodInfo_t* L_3 = V_0;
 		bool L_4;
@@ -35260,7 +35260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberExpression_t133C12A9CE765EF02D622D660CE
 	{
 		PropertyInfo_t* L_5 = ___1_property;
 		MethodInfo_t* L_6;
-		L_6 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(24, L_5, (bool)1);
+		L_6 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(23, L_5, (bool)1);
 		V_0 = L_6;
 		MethodInfo_t* L_7 = V_0;
 		bool L_8;
@@ -35451,7 +35451,7 @@ IL_0020:
 		Type_t* L_7 = V_0;
 		int32_t L_8 = V_1;
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_9;
-		L_9 = VirtualFuncInvoker1< PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7*, int32_t >::Invoke(109, L_7, L_8);
+		L_9 = VirtualFuncInvoker1< PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7*, int32_t >::Invoke(112, L_7, L_8);
 		V_2 = L_9;
 		V_3 = 0;
 		goto IL_006f;
@@ -35476,7 +35476,7 @@ IL_002e:
 		MethodInfo_t* L_16 = ___0_mi;
 		PropertyInfo_t* L_17 = V_4;
 		MethodInfo_t* L_18;
-		L_18 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(22, L_17, (bool)1);
+		L_18 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(21, L_17, (bool)1);
 		il2cpp_codegen_runtime_class_init_inline(Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_il2cpp_TypeInfo_var);
 		bool L_19;
 		L_19 = Expression_CheckMethod_mB1AADFE087C38812ABC2BB0841B114F7E4F24020(L_16, L_18, NULL);
@@ -35504,7 +35504,7 @@ IL_004f:
 		MethodInfo_t* L_23 = ___0_mi;
 		PropertyInfo_t* L_24 = V_4;
 		MethodInfo_t* L_25;
-		L_25 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(24, L_24, (bool)1);
+		L_25 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(23, L_24, (bool)1);
 		il2cpp_codegen_runtime_class_init_inline(Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_il2cpp_TypeInfo_var);
 		bool L_26;
 		L_26 = Expression_CheckMethod_mB1AADFE087C38812ABC2BB0841B114F7E4F24020(L_23, L_25, NULL);
@@ -35793,7 +35793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Expression_ValidateListInitArgs_mBC2B134
 		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
 		Type_t* L_2 = ___0_listType;
 		bool L_3;
-		L_3 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_1, L_2);
 		if (L_3)
 		{
 			goto IL_001a;
@@ -36035,7 +36035,7 @@ IL_000b:
 		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(8, L_9);
 		Type_t* L_11 = ___0_type;
 		bool L_12;
-		L_12 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_10, L_11);
+		L_12 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_10, L_11);
 		if (L_12)
 		{
 			goto IL_0050;
@@ -37245,7 +37245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* Expression_FindMethod_m8602E926
 		Type_t* L_0 = ___0_type;
 		int32_t L_1 = ___4_flags;
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_2;
-		L_2 = VirtualFuncInvoker1< MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265*, int32_t >::Invoke(99, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265*, int32_t >::Invoke(101, L_0, L_1);
 		V_2 = L_2;
 		V_3 = 0;
 		goto IL_007c;
@@ -37495,7 +37495,7 @@ IL_0015:
 	{
 		Type_t* L_18 = V_4;
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_18);
 		V_4 = L_19;
 	}
 
@@ -37531,7 +37531,7 @@ IL_0047:
 		Type_t* L_29;
 		L_29 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_28, NULL);
 		bool L_30;
-		L_30 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_27, L_29);
+		L_30 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_27, L_29);
 		if (L_30)
 		{
 			goto IL_0075;
@@ -37843,7 +37843,7 @@ IL_00d4:
 	{
 		Type_t* L_49 = ___0_type;
 		Type_t* L_50;
-		L_50 = VirtualFuncInvoker0< Type_t* >::Invoke(120, L_49);
+		L_50 = VirtualFuncInvoker0< Type_t* >::Invoke(123, L_49);
 		ReadOnlyCollection_1_t76DB6014D5D8866A0D28561F8D56D2303331614E* L_51 = V_0;
 		NewArrayExpression_t456788ECCA135056C26BDD0CB8DE88D32D1EFD5E* L_52;
 		L_52 = NewArrayExpression_Make_m3F354B7212BB401CC253C87168161A6AF06EB9C1(((int32_t)32), L_50, L_51, NULL);
@@ -37974,7 +37974,7 @@ IL_008e:
 	{
 		Type_t* L_27 = ___0_type;
 		Type_t* L_28;
-		L_28 = VirtualFuncInvoker0< Type_t* >::Invoke(120, L_27);
+		L_28 = VirtualFuncInvoker0< Type_t* >::Invoke(123, L_27);
 		V_2 = L_28;
 		goto IL_00a7;
 	}
@@ -37984,7 +37984,7 @@ IL_009f:
 		Type_t* L_29 = ___0_type;
 		int32_t L_30 = V_1;
 		Type_t* L_31;
-		L_31 = VirtualFuncInvoker1< Type_t*, int32_t >::Invoke(121, L_29, L_30);
+		L_31 = VirtualFuncInvoker1< Type_t*, int32_t >::Invoke(124, L_29, L_30);
 		V_2 = L_31;
 	}
 
@@ -38183,7 +38183,7 @@ IL_0028:
 	{
 		Type_t* L_9 = ___0_type;
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_10;
-		L_10 = VirtualFuncInvoker1< ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A*, int32_t >::Invoke(82, L_9, ((int32_t)52));
+		L_10 = VirtualFuncInvoker1< ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A*, int32_t >::Invoke(83, L_9, ((int32_t)52));
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t5FFBA7C32AFB05DD7EAB3234DF9CC18D9D36D0D3_il2cpp_TypeInfo_var);
 		Func_2_tF43743677DC8EC7ECF5575F75E3C0CB6CE4EE70C* L_11 = ((U3CU3Ec_t5FFBA7C32AFB05DD7EAB3234DF9CC18D9D36D0D3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t5FFBA7C32AFB05DD7EAB3234DF9CC18D9D36D0D3_il2cpp_TypeInfo_var))->___U3CU3E9__358_0;
 		Func_2_tF43743677DC8EC7ECF5575F75E3C0CB6CE4EE70C* L_12 = L_11;
@@ -38451,7 +38451,7 @@ IL_00e9:
 	{
 		Type_t* L_61 = V_8;
 		Type_t* L_62;
-		L_62 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_61);
+		L_62 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_61);
 		V_8 = L_62;
 	}
 
@@ -38999,7 +38999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ParameterExpression_tE8D3A1137422F75D256CBB20
 	{
 		Type_t* L_4 = ___0_type;
 		Type_t* L_5;
-		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_4);
+		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_4);
 		___0_type = L_5;
 	}
 
@@ -41501,7 +41501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnaryExpression_tFB4F40A211A2FF9B58F1A86E0EDB
 		Type_t* L_2;
 		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_1);
 		bool L_3;
-		L_3 = VirtualFuncInvoker0< bool >::Invoke(41, L_2);
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(42, L_2);
 		if (L_3)
 		{
 			goto IL_0052;
@@ -41527,7 +41527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnaryExpression_tFB4F40A211A2FF9B58F1A86E0EDB
 		Type_t* L_10;
 		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_9);
 		bool L_11;
-		L_11 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_8, L_10);
+		L_11 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_8, L_10);
 		if (L_11)
 		{
 			goto IL_0047;

@@ -5638,7 +5638,7 @@ IL_003d:
 		Type_t* L_13;
 		L_13 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		String_t* L_14;
-		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_13);
+		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_13);
 		ArrayElementTypeCheck (L_12, L_14);
 		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_14);
 		String_t* L_15;

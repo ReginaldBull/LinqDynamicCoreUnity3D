@@ -22812,7 +22812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExceptionHandler_Matches_m7A84AF9AE7B6C2
 		Type_t* L_0 = __this->____exceptionType;
 		Type_t* L_1 = ___0_exceptionType;
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_0, L_1);
 		return L_2;
 	}
 }
@@ -24213,7 +24213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LightCompiler_MaybeMutableValueType_m331
 	{
 		Type_t* L_2 = ___0_type;
 		bool L_3;
-		L_3 = VirtualFuncInvoker0< bool >::Invoke(69, L_2);
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(70, L_2);
 		if (L_3)
 		{
 			goto IL_001a;
@@ -24740,7 +24740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightCompiler_EmitIndexGet_mFA78DE362D73
 		PropertyInfo_t* L_5;
 		L_5 = IndexExpression_get_Indexer_m29EE5DA0A3D323D0CF2CA87F4661AE2D60DB707C_inline(L_4, NULL);
 		MethodInfo_t* L_6;
-		L_6 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(22, L_5, (bool)1);
+		L_6 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(21, L_5, (bool)1);
 		InstructionList_EmitCall_mB2E0E715DD35CC0E97C11DBB070BBEB80FF7996B(L_3, L_6, NULL);
 		return;
 	}
@@ -24892,7 +24892,7 @@ IL_0090:
 		PropertyInfo_t* L_32;
 		L_32 = IndexExpression_get_Indexer_m29EE5DA0A3D323D0CF2CA87F4661AE2D60DB707C_inline(L_31, NULL);
 		MethodInfo_t* L_33;
-		L_33 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(24, L_32, (bool)1);
+		L_33 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(23, L_32, (bool)1);
 		InstructionList_EmitCall_mB2E0E715DD35CC0E97C11DBB070BBEB80FF7996B(L_30, L_33, NULL);
 		goto IL_00ef;
 	}
@@ -25028,7 +25028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightCompiler_CompileMemberAssignment_m6
 	{
 		PropertyInfo_t* L_3 = V_0;
 		MethodInfo_t* L_4;
-		L_4 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(24, L_3, (bool)1);
+		L_4 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(23, L_3, (bool)1);
 		V_1 = L_4;
 		bool L_5 = ___3_forBinding;
 		if (!L_5)
@@ -26553,7 +26553,7 @@ IL_0098:
 		V_7 = L_33;
 		Type_t* L_34 = V_8;
 		Type_t* L_35;
-		L_35 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_34);
+		L_35 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_34);
 		V_8 = L_35;
 		goto IL_00be;
 	}
@@ -26644,7 +26644,7 @@ IL_0134:
 		Type_t* L_62;
 		L_62 = TypeUtils_GetNonNullableType_mEFA6EEA56679D5341A252A5D07B7356063A78F85(L_61, NULL);
 		bool L_63;
-		L_63 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(125, L_60, L_62);
+		L_63 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(128, L_60, L_62);
 		if (!L_63)
 		{
 			goto IL_016f;
@@ -26786,7 +26786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightCompiler_CompileConvertToType_mDE96
 		Type_t* L_0 = ___1_typeTo;
 		Type_t* L_1 = ___0_typeFrom;
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(125, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(128, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_000a;
@@ -26823,7 +26823,7 @@ IL_000a:
 		L_8 = TypeUtils_GetNonNullableType_mEFA6EEA56679D5341A252A5D07B7356063A78F85(L_7, NULL);
 		Type_t* L_9 = ___0_typeFrom;
 		bool L_10;
-		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(125, L_8, L_9);
+		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(128, L_8, L_9);
 		if (!L_10)
 		{
 			goto IL_0029;
@@ -26860,7 +26860,7 @@ IL_0029:
 		L_16 = TypeUtils_GetNonNullableType_mEFA6EEA56679D5341A252A5D07B7356063A78F85(L_15, NULL);
 		Type_t* L_17 = ___1_typeTo;
 		bool L_18;
-		L_18 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(125, L_16, L_17);
+		L_18 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(128, L_16, L_17);
 		if (!L_18)
 		{
 			goto IL_0058;
@@ -26896,7 +26896,7 @@ IL_0058:
 	{
 		Type_t* L_27 = V_0;
 		bool L_28;
-		L_28 = VirtualFuncInvoker0< bool >::Invoke(69, L_27);
+		L_28 = VirtualFuncInvoker0< bool >::Invoke(70, L_27);
 		if (!L_28)
 		{
 			goto IL_013f;
@@ -26917,7 +26917,7 @@ IL_0079:
 	{
 		Type_t* L_31 = V_1;
 		bool L_32;
-		L_32 = VirtualFuncInvoker0< bool >::Invoke(69, L_31);
+		L_32 = VirtualFuncInvoker0< bool >::Invoke(70, L_31);
 		if (L_32)
 		{
 			goto IL_009e;
@@ -26942,7 +26942,7 @@ IL_009e:
 		V_2 = (Type_t*)NULL;
 		Type_t* L_37 = V_0;
 		bool L_38;
-		L_38 = VirtualFuncInvoker0< bool >::Invoke(69, L_37);
+		L_38 = VirtualFuncInvoker0< bool >::Invoke(70, L_37);
 		if (!L_38)
 		{
 			goto IL_00af;
@@ -26960,7 +26960,7 @@ IL_00af:
 	{
 		Type_t* L_41 = V_1;
 		bool L_42;
-		L_42 = VirtualFuncInvoker0< bool >::Invoke(69, L_41);
+		L_42 = VirtualFuncInvoker0< bool >::Invoke(70, L_41);
 		if (!L_42)
 		{
 			goto IL_00c0;
@@ -27087,7 +27087,7 @@ IL_013f:
 	{
 		Type_t* L_74 = ___1_typeTo;
 		bool L_75;
-		L_75 = VirtualFuncInvoker0< bool >::Invoke(69, L_74);
+		L_75 = VirtualFuncInvoker0< bool >::Invoke(70, L_74);
 		if (!L_75)
 		{
 			goto IL_0164;
@@ -27122,7 +27122,7 @@ IL_0164:
 		Type_t* L_84 = ___1_typeTo;
 		Type_t* L_85 = ___0_typeFrom;
 		bool L_86;
-		L_86 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_84, L_85);
+		L_86 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_84, L_85);
 		if (!L_86)
 		{
 			goto IL_0180;
@@ -31300,7 +31300,7 @@ IL_0290:
 		InstructionList_tC673AC9DD46CD15DB2A1E07D0313AC47D66DE55A* L_121 = __this->____instructions;
 		PropertyInfo_t* L_122 = V_5;
 		MethodInfo_t* L_123;
-		L_123 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(22, L_122, (bool)1);
+		L_123 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(21, L_122, (bool)1);
 		InstructionList_EmitCall_mB2E0E715DD35CC0E97C11DBB070BBEB80FF7996B(L_121, L_123, NULL);
 		PropertyInfo_t* L_124 = V_5;
 		bool L_125;
@@ -31871,7 +31871,7 @@ IL_0087:
 	{
 		PropertyInfo_t* L_30 = V_1;
 		MethodInfo_t* L_31;
-		L_31 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(22, L_30, (bool)1);
+		L_31 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(21, L_30, (bool)1);
 		V_2 = L_31;
 		bool L_32 = ___2_forBinding;
 		if (!L_32)
@@ -32051,7 +32051,7 @@ IL_0039:
 		Type_t* L_12;
 		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_11);
 		Type_t* L_13;
-		L_13 = VirtualFuncInvoker0< Type_t* >::Invoke(45, L_12);
+		L_13 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_12);
 		V_1 = L_13;
 		NewArrayExpression_t456788ECCA135056C26BDD0CB8DE88D32D1EFD5E* L_14 = V_0;
 		ReadOnlyCollection_1_t76DB6014D5D8866A0D28561F8D56D2303331614E* L_15;
@@ -32681,7 +32681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightCompiler_CompileInvocationExpressio
 		Type_t* L_5;
 		L_5 = VirtualFuncInvoker0< Type_t* >::Invoke(5, L_4);
 		bool L_6;
-		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_2, L_5);
+		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_2, L_5);
 		if (!L_6)
 		{
 			goto IL_005d;
